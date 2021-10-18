@@ -181,7 +181,7 @@ class OptPlanner(LeafSystem):
         # self.OrientationTest(context.get_time())
         # self.EdgeTest()
         # self.RaiseFoot(context.get_time())
-        self.Com_to_setting(context.get_time())
+        self.To_jump(context.get_time())
 
     def SetGeometryOutputs(self, context, output):
         fpv = output.get_mutable_value()
@@ -243,7 +243,7 @@ class OptPlanner(LeafSystem):
         # self.output_dict["pd_com"] = np.array(pd_feet_d)
         # self.output_dict["pdd_com"] = np.array(pdd_feet_d)
 
-    def Com_to_setting(self, t):
+    def To_jump(self, t):
         # desired CoM when standing
         p_com_x = 0.005
         p_com_y = 0.000
