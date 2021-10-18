@@ -102,7 +102,7 @@ For pinocchio, check `robot_urdf_path_pin`.
 
 - Run the simulation script `./simulate_jump.py`.
 
-### 2. Stand, then lift leg, then squat
+### 2. Stand, then raise leg, then squat
 - Start the drake visualizer `bazel-bin/tools/drake_visualizer`.
 
 - Edit "./clf_ctl/simulate_raise_foot.py", set `planning_method` as `basic`, then set `control_method` as `ID`
