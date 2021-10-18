@@ -16,7 +16,7 @@ Secondly, to install Russ's tutorial
 - [RussTedrake's course notes](http://underactuated.mit.edu/)
 
 
-Firstly, to install Pinocchio and its python binding
+Thirdly, to install Pinocchio and its python binding
 ------------------------
 - [Pinocchio installation](https://stack-of-tasks.github.io/pinocchio/download.html)
 
