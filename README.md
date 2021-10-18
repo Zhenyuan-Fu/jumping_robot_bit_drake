@@ -36,7 +36,7 @@ since my python version is 3.6.
 
 ## LCM and TOWR Installation (optional)
 
-For this simulation, the two package are not necessary. If you want to try TOWR planner and LCM, you can intstall them. 
+For this simulation, the two package are not necessary. If you want to try TOWR planner and LCM, you can install them. 
 
 Clone this repository: `git clone https://github.com/.git`
 
