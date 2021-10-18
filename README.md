@@ -100,12 +100,12 @@ For pinocchio, check `robot_urdf_path_pin`.
 
 - Edit "./clf_ctl/simulate_jump.py", set `planning_method` as `opt_traj_matlab`, then set `control_method` as `COMID`
 
-- Run the simulation script `./simulate_jump.py`.
+- Run the simulation script `./clf_ctl/simulate_jump.py`.
 
 ### 2. Stand, then raise leg, then squat
 - Start the drake visualizer `bazel-bin/tools/drake_visualizer`.
 
 - Edit "./clf_ctl/simulate_raise_foot.py", set `planning_method` as `basic`, then set `control_method` as `ID`
 
-- Run the simulation script `./simulate_raise_foot.py`.
+- Run the simulation script `./clf_ctl/simulate_raise_foot.py`.
 
