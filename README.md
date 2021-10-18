@@ -3,7 +3,7 @@ BIT JUMPING ROBOT
 
 
 This repository contains code for the simulation and control of BIT jumping robot using [Drake](https://drake.mit.edu).
-
+For a common coding style, all packages are using python-3.6, and the simulation is also using python-3.6. 
 
 Firstly, to install Drake and its python binding
 ------------------------
@@ -19,6 +19,8 @@ Secondly, to install Russ's tutorial
 Thirdly, to install Pinocchio and its python binding
 ------------------------
 - [Pinocchio installation](https://stack-of-tasks.github.io/pinocchio/download.html)
+- Attention when installation: `sudo apt install -qqy robotpkg-py36-pinocchio`, 
+since my python version is 3.6.
 
 
 ## Dependencies
