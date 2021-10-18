@@ -94,6 +94,7 @@ target_realtime_rate = 1.0
 
 show_diagram = False
 make_plots = True
+jump_running = True  # is dong jumping task or not
 
 
 #####################################################

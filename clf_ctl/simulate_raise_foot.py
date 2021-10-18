@@ -82,7 +82,7 @@ def colorize_labels(image):
 
 show_trunk_model = True
 use_lcm = False
-jump_running = False
+jump_running = False  # is dong jumping task or not
 
 planning_method = "basic"  # "towr" "osc_traj" "basic"
 control_method = "ID"  # ID = Inverse Dynamics (standard QP),

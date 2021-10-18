@@ -91,7 +91,10 @@ class IDController(BasicController):
                                      Rot_foot_right_mtx, swing_feet):
         """
         Add a friction pyramid constraint for the given set of contact forces
-        to the whole-body controller QP.
+        to the whole-body controller QP,
+        "Stability of Surface Contacts for Humanoid Robots:
+        Closed-Form Formulae of the Contact Wrench Cone
+        for Rectangular Support Areas"(by Stéphane Caron).
         """
         num_contacts = len(f_c)
 
