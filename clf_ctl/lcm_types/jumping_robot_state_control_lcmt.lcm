@@ -1,0 +1,7 @@
+package jumping_robot_lcm;
+
+struct jumping_robot_state_control_lcmt {
+    float q[19];
+    float v[18];
+    float tau[12];
+}
